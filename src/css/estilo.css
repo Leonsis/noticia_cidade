@@ -13,7 +13,6 @@ body {
 main {
     width: 970px;
     height: 500px;
-    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -77,6 +76,43 @@ header #menu-principal ul li a.borda {
 /*Congigurações a conteudo
 __________________________________________________________________________________________________________*/
 #conteudo {
-    border: 1px solid red;
-    margin-top: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteudo nav#caixa1, 
+#conteudo nav#caixa2, 
+#conteudo nav#caixa3 {
+    background: url(../img/fundo-caixa.png);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#conteudo nav#caixa1 h2, 
+#conteudo nav#caixa2 h2, 
+#conteudo nav#caixa3 h2{
+    font-size: 1.2em;
+    background: rgb(41, 76, 113);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+
+#conteudo nav#caixa1, 
+#conteudo nav#caixa2 {
+    width: 350px;
+}
+
+#conteudo nav#caixa1 {
+    order: 2;
+}
+
+#conteudo nav#caixa2 {
+    order: 3;
+}
+
+#conteudo nav#caixa3 {
+    order: 1;
+    width: 200px;
 }
