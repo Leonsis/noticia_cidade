@@ -81,6 +81,7 @@ ________________________________________________________________________________
     justify-content: space-between;
 }
 
+/* Configurações dos ids caixa1, caixa2, caixa3 que está dentro do id conteudo */
 #conteudo nav#caixa1, 
 #conteudo nav#caixa2, 
 #conteudo nav#caixa3 {
@@ -89,6 +90,7 @@ ________________________________________________________________________________
     padding: 10px;
 }
 
+/* Configurações da tag h2 que esta dentro das tags nav#caixa1, nav#caixa2, nav#caixa3 */
 #conteudo nav#caixa1 h2, 
 #conteudo nav#caixa2 h2, 
 #conteudo nav#caixa3 h2{
@@ -98,7 +100,7 @@ ________________________________________________________________________________
     padding: 5px;
 }
 
-
+/* Configurações dos id caixa1 e caixa2 que estão dentro do id conteudo */
 #conteudo nav#caixa1, 
 #conteudo nav#caixa2 {
     width: 350px;
