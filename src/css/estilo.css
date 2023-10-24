@@ -27,6 +27,7 @@ a {
     color: black;
     text-decoration: none;
 }
+
 /*Congigurações a header
 __________________________________________________________________________________________________________*/
 header {
@@ -72,3 +73,6 @@ header #menu-principal ul li a:hover {
 header #menu-principal ul li a.borda {
     border-right: none;
 }
+
+/*Congigurações a conteudo
+__________________________________________________________________________________________________________*/
