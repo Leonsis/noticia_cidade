@@ -121,3 +121,18 @@ ________________________________________________________________________________
     order: 1;
     width: 200px;
 }
+
+/* Configurações da class container que está dentro da tag nav */
+#conteudo nav .container {
+    margin-top: 5px;
+    border: 1px solid red;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+}
+
+/* Configurações da tag a que está dentro ca class container */
+#conteudo nav .container li a{
+    display: block;
+    border: 1px solid red;
+    padding: 5px;
+}
