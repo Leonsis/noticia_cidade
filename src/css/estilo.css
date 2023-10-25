@@ -106,14 +106,17 @@ ________________________________________________________________________________
     width: 350px;
 }
 
+/* Configurações do id caixa1 que está dentro do id conteudo */
 #conteudo nav#caixa1 {
     order: 2;
 }
 
+/* Configurações do id caixa2 que está dentro do id conteudo */
 #conteudo nav#caixa2 {
     order: 3;
 }
 
+/* Configurações do id caixa3 que está dentro do id conteudo */
 #conteudo nav#caixa3 {
     order: 1;
     width: 200px;
