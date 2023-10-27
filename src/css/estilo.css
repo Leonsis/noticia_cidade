@@ -85,10 +85,17 @@ ________________________________________________________________________________
 #conteudo nav#caixa1, 
 #conteudo nav#caixa2, 
 #conteudo nav#caixa3 {
-    background: url(../img/fundo-caixa.png);
     box-sizing: border-box;
     padding: 10px;
 }
+
+/* Configurações da class caixa que está dentro da tag nav */
+#conteudo nav .caixa {
+    background: url(../img/fundo-caixa.png);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
 
 /* Configurações da tag h2 que esta dentro das tags nav#caixa1, nav#caixa2, nav#caixa3 */
 #conteudo nav#caixa1 h2, 
@@ -125,7 +132,6 @@ ________________________________________________________________________________
 /* Configurações da class container que está dentro da tag nav */
 #conteudo nav .container {
     margin: 5px 0 5px 0;
-    border: 1px solid red;
     padding: 5px;
     background: rgb(255, 255, 255);
 }
@@ -134,11 +140,29 @@ ________________________________________________________________________________
 #conteudo nav .container li a{
     display: block;
     padding: 5px;
-    border: 1px solid rgb(210, 200, 200);
+    border-bottom: 1px solid rgb(168, 168, 168);
 }
-
 #conteudo nav .container li a:hover {
     background: url(../img/marcador.png) no-repeat left;
     padding-left: 20px;
-    color: rgb(210, 200, 200);
+    color: rgb(168, 168, 168);
+}
+
+/* Configurações da tag form que está dentro da class container */
+#conteudo nav .container form {
+    margin: 5px;
+}
+
+/* Configurações do id email que está dentro da class container */
+#conteudo nav .container form #email{
+    width: 100%;
+    margin-right: 130px;
+}
+
+/* Configurações da id enviar que está dentro da class container */
+#conteudo nav .container form #enviar{
+    margin-top: 5px;
+    background: rgb(142, 5, 43);
+    padding: 5px;
+    color: rgb(255, 255, 255);
 }
