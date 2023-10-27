@@ -124,7 +124,7 @@ ________________________________________________________________________________
 
 /* Configurações da class container que está dentro da tag nav */
 #conteudo nav .container {
-    margin-top: 5px;
+    margin: 5px 0 5px 0;
     border: 1px solid red;
     padding: 5px;
     background: rgb(255, 255, 255);
@@ -133,6 +133,12 @@ ________________________________________________________________________________
 /* Configurações da tag a que está dentro ca class container */
 #conteudo nav .container li a{
     display: block;
-    border: 1px solid red;
     padding: 5px;
+    border: 1px solid rgb(210, 200, 200);
+}
+
+#conteudo nav .container li a:hover {
+    background: url(../img/marcador.png) no-repeat left;
+    padding-left: 20px;
+    color: rgb(210, 200, 200);
 }
