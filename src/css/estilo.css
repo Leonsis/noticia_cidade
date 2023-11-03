@@ -96,7 +96,6 @@ ________________________________________________________________________________
     margin-bottom: 10px;
 }
 
-
 /* Configurações da tag h2 que esta dentro das tags nav#caixa1, nav#caixa2, nav#caixa3 */
 #conteudo nav#caixa1 h2, 
 #conteudo nav#caixa2 h2, 
@@ -136,16 +135,18 @@ ________________________________________________________________________________
     background: rgb(255, 255, 255);
 }
 
-/* Configurações da tag a que está dentro ca class container */
-#conteudo nav .container li a{
+/* Configurações da tag a que está dentro do id menu-lateral */
+#conteudo nav .container #menu-lateral a{
     display: block;
     padding: 5px;
-    border-bottom: 1px solid rgb(168, 168, 168);
+    border-bottom: 1px solid rgb(161, 161, 161);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
-#conteudo nav .container li a:hover {
+#conteudo nav .container #menu-lateral a:hover {
     background: url(../img/marcador.png) no-repeat left;
     padding-left: 20px;
-    color: rgb(168, 168, 168);
+    color: rgb(161, 161, 161);
 }
 
 /* Configurações da tag form que está dentro da class container */
@@ -169,9 +170,43 @@ ________________________________________________________________________________
     color: rgb(255, 255, 255);
 }
 
+/* Configurações da tag h3 que está denrtro do id caixa1 */
 #conteudo nav#caixa1 .container h3 {
     color: rgb(255, 255, 255);
     background-color: rgb(142, 5, 43);
     display: inline;
-    padding: 5px;
+    padding: 3px;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Configurações da class imagem que está dentro da class container */
+#conteudo .container .imagem {
+    margin: 0 3px 0px 0;
+}
+
+/* Configurações da tag img que está dentro da class imagem */
+#conteudo .container .imagem img {
+    border: 2px solid rgb(223, 223, 223);
+}
+
+/* Configurações da tag a que esta dentro da class container */
+#conteudo .container a {
+    color: rgb(142, 5, 43);
+    text-decoration: underline;
+}
+#conteudo nav#caixa1 .container a:hover {
+    color: rgb(231, 0, 64);
+}
+
+/* Configurações da tag h3 que está dentro do id caixa2*/
+#conteudo nav#caixa2 .container h3 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 0, 64);
+    display: inline;
+    padding: 3px;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
 }
