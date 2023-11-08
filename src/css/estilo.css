@@ -13,7 +13,7 @@ body {
 
 main {
     margin: 0 auto;
-    width: 970px;
+    width: 870px;
 }
 
 ul.menu {
@@ -22,31 +22,42 @@ ul.menu {
     padding: 0;
 }
 
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
 /* Configurações de header
 _____________________________________________________________________________________________________________*/
 header {
     border: 1px solid red; /* TIRAR */
+    padding: 20px;
+    background: url(../img/detalhe-topo.png) no-repeat right;
 }
 
+/* Configurações do id logo que está dentro da tag header */
 header #logo {
-    border: 1px solid red; /* TIRAR */
     background: url(../img/logo.png) no-repeat;
     width: 160px;
     height: 75px;
     text-indent: -3000px;
+    margin-bottom: 15px;
 }
 
+/* Configuração da tag ul que está dentro do id menu-principal */
 header #menu-principal ul {
     float: left;
 }
 
+/* Configuração da tag li que está dentro do id menu-principal */
 header #menu-principal li {
-    border: 1px solid red; /* TIRAR */
     float: left;
 }
 
+/* Configuração da tag a que está dentro do id menu-principal */
 header #menu-principal li a {
-    color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 13px;
     display: block;
+    background: rgb(177, 3, 51) url(../img/divisor.png) repeat-y;
+    color: rgb(255, 255, 255);
 }
