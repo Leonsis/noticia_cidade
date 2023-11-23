@@ -93,7 +93,7 @@ div#conteudo {
 #conteudo #box1 .caixa,
 #conteudo #box2 .caixa,
 #conteudo #box3 .caixa {
-    background: url(../img/fundo-caixa.png);
+    background: url(../img/fundo-caixa.p);
     box-sizing: border-box;
     padding: 5px;
     margin-bottom: 15px;
@@ -104,6 +104,7 @@ div#conteudo {
 #conteudo #box2 .caixa #container2,
 #conteudo #box3 .caixa #container3 {
     background: url(../img/fundo-caixa.png);
+    padding: 7px;
 }
 
 /* Configurações da tag h2 que está dentro da class caixa */
@@ -158,30 +159,29 @@ div#conteudo {
     cursor: pointer;
 }
 
-/**/
+/* Configurações do id destaque que esta dentro da class caixa */
 #conteudo .caixa #destaque,
 #conteudo .caixa #entrevistas {
-    margin: 0px 5px;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
-/**/
+/* Configurações da class imagem que está dentro da class caixa */
 #conteudo .caixa .imagem {
-    width: 300px;
+    width: 270px;
 }
 
-/**/
+/* Configurações da tag img que está dentro da class imagem */
 #conteudo .caixa .imagem img{
     border: 3px solid rgb(222, 222, 222);
 }
 
-/**/
+/* Configurações da tag p que está dentro da class caixa */
 #conteudo .caixa p{
     text-align: left;
 }
 
-/**/
+/* Configurações da tag h3 que está dentro do id destaque */
 #conteudo .caixa #destaque h3 {
     background: rgb(177, 3, 51);
     color: rgb(255, 255, 255);
@@ -190,7 +190,7 @@ div#conteudo {
     font-size: 0.9em;
 }
 
-/**/
+/* Cofigurações da tag h3 que está dentro do id entrevista */
 #conteudo .caixa #entrevistas h3 {
     background: rgb(184, 21, 21);
     color: rgb(0, 0, 0);
@@ -199,7 +199,7 @@ div#conteudo {
     font-size: 0.9em;
 }
 
-/**/
+/* Configurações da tag a que esta dentro dos id destaque e entrevista */
 #conteudo .caixa #destaque a,
 #conteudo .caixa #entrevistas a {
     color: rgb(177, 3, 51);
@@ -210,7 +210,7 @@ div#conteudo {
     color: red;
 }
 
-/**/
+/* Configurações da tag li que está dentro dos id mundo e noticias-recentes */
 #conteudo .caixa #mundo li,
 #conteudo .caixa #noticias-recentes li {
     float: left;
@@ -222,12 +222,14 @@ div#conteudo {
     background-color: rgb(222, 222, 222);
 }
 
+/* Configurações da tag img que está dentro dos id mundo e noticias-recentes */
 #conteudo .caixa #mundo li img,
 #conteudo .caixa #noticias-recentes li img {
     float: left;
     width: 30%;
 }
 
+/* Configurações da tag p que está dentro dos id mundo e noticias-recentes */
 #conteudo .caixa #mundo li p, 
 #conteudo .caixa #noticias-recentes li p {
     float: right;
@@ -236,11 +238,7 @@ div#conteudo {
     font-size: 0.8em;
 }
 
-#conteudo .caixa #mundo div,
-#conteudo .caixa #noticias-recentes div {
-    padding: 3px;
-}
-
+/* Configurações da tag h4 que esta dentro dos id mundo e noticias-recentes */
 #conteudo .caixa #mundo h4,
 #conteudo .caixa #noticias-recentes h4 {
     font-size: 0.9em;
@@ -249,6 +247,7 @@ div#conteudo {
     margin-left: 3px;
 }
 
+/* Configurações dos id formulario, noticias-recentes,entrevistas, menu-lateral, destaque, mundo que estão dentro da class caixa */
 #conteudo .caixa #formulario,
 #conteudo .caixa #noticias-recentes,
 #conteudo .caixa #entrevistas,
@@ -256,4 +255,24 @@ div#conteudo {
 #conteudo .caixa #destaque,
 #conteudo .caixa #mundo {
     background: rgb(255, 255, 255);
+}
+
+/* Configurações dos id entrevistas, destaque que estão dentro da class caixa */
+#conteudo .caixa #entrevistas,
+#conteudo .caixa #destaque {
+    padding-left: 5px;
+}
+
+
+/* Configurações de footer
+_____________________________________________________________________________________________________________*/
+footer {
+    background: rgb(41, 76, 113);
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Configurações da tag h5 que está dentro da tag footer */
+footer h5{
+    color: rgb(255, 255, 255);
 }
