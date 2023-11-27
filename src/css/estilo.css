@@ -89,6 +89,17 @@ div#conteudo {
     order: 1;
 }
 
+/* Configurações do id box1 e box2 que estão dentro do id brasil */
+#brasil #conteudo #box1,
+#brasil #conteudo #box2 {
+    width: 415px;
+}
+
+/* Configurações do id box1 e box2 que estão dentro do id brasil */
+#internacional #conteudo #box2 {
+    width: 830px;
+}
+
 /* Configurações da class caixa que esta dentro do id box1, box2, box3 */
 #conteudo #box1 .caixa,
 #conteudo #box2 .caixa,
@@ -168,7 +179,7 @@ div#conteudo {
 
 /* Configurações da class imagem que está dentro da class caixa */
 #conteudo .caixa .imagem {
-    width: 270px;
+    width: 97%;
 }
 
 /* Configurações da tag img que está dentro da class imagem */
