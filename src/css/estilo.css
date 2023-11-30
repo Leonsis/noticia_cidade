@@ -258,6 +258,19 @@ div#conteudo {
     margin-left: 3px;
 }
 
+/* Configurações dos id noticias-recentes1 e noticias-recentes2 que zestão denreo do id interncional */
+#internacional #conteudo .caixa #noticias-recentes1,
+#internacional #conteudo .caixa #noticias-recentes2 {
+    border: 1px solid rgb(222, 222, 222);
+    width: 49%;
+}
+#internacional #conteudo .caixa #noticias-recentes1 {
+    float: left;
+}
+#internacional #conteudo .caixa #noticias-recentes2 {
+    float: right;
+}
+
 /* Configurações dos id formulario, noticias-recentes,entrevistas, menu-lateral, destaque, mundo que estão dentro da class caixa */
 #conteudo .caixa #formulario,
 #conteudo .caixa #noticias-recentes,
