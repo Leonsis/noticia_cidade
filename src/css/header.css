@@ -1,0 +1,45 @@
+header {
+    /*border: 1px solid red;*/
+    background: url(../img/fundo.png) repeat-x;
+    height: 230px;
+}
+
+header h1{
+    background: url(../img/logo.png) no-repeat;
+    width: 157px;
+    height: 75px;
+    text-indent: -3000px;
+    margin-top: 10px;
+}
+
+header #menuPrincipal .navbar{
+    margin: 0;
+    background: var(--cor-vermelha);
+    width: 555px;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    header #menuPrincipal ul a {
+        color: var(--cor-branca);
+        background: url(../img/divisor.png) repeat-y;
+    }    
+}
+
+@media (max-width: 768px) {
+    header #menuPrincipal .navbar{
+        width: 100%;
+    }
+}
+
+header #menuPrincipal ul a {
+    color: var(--cor-branca);
+}
+
+header #menuPrincipal ul a:hover {
+    color: var(--cor-vermelho-escuro);
+}
+
+header #menuPrincipal ul a.primeiro {
+    background: none;
+}
