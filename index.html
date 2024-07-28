@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Normalise -->
+        <link rel="stylesheet" href="src/css/normalise.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="src/css/variaveis.css">
+        <link rel="stylesheet" href="src/css/header.css">
+        <link rel="stylesheet" href="src/css/conteudo.css">
+        <link rel="stylesheet" href="src/css/footer.css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
+        
+        <!--[if lt IE 9]>
+            <script src="src/js/html5shiv.js"></script>
+        <![endif]-->
+        <title>Notícia cidade - Seu site de Noticias</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div id="logo" class="col-12">
+                        <h1>Notícias Cidade</h1>
+                    </div>
+                    <div id="menuPrincipal" class="col">
+                        <nav class="navbar navbar-expand-md navbar-dark">
+                            <!-- Menu hamburguer-->
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                
+                            <!-- Navegação -->
+                            <div class="collapse navbar-collapse" id="nav-target">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link primeiro">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Entrevsita</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Brasil</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Internacional</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Economia</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Seúde</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Ciência</a>
+                                    </li>
+                                </ul>
+                            </div><!-- /FIM navegação -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="conteudo">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <nav class="col-3 d-none d-md-block">
+                        <div class="caixa">
+                            <h4>Entrevistas</h4>
+                            <div class="bloco">
+                                <ul class="navbar-nav ml-auto entrevistas">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">José Almeida</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Felipe Silva</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Renato Rodrigues</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Aberlado Silveira</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">André Carlos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Mácia Mello</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">João pedro</a>
+                                    </li>
+                                    <li class="nav-item ultimo">
+                                        <a href="#" class="nav-link">Fernando Weiss</a>
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </div>
+
+                        <div class="caixa">
+                            <h4>News</h4>
+                            <div class="bloco">
+                                <form class="news">
+                                    <div>
+                                        <label for="email">E-mail:</label>
+                                        <input type="text" name="email" id="email" placeholder="E-mail">
+                                    </div>
+                                    <div class=" d-flex justify-content-center">
+                                        <input class="submit btn" type="submit" value="Cadastrar">
+                                    </div>
+                                </form>
+                            </div>                            
+                        </div>
+                    </nav>
+
+                    <nav class="col-sm-12 col-md-4 ">
+                        <div class="caixa">
+                            <h4>Destaque</h4>
+                            <div class="bloco">
+                                <h5>Nova legislação</h3>
+                                <img class="imagem-principal img-fluid" src="src/img/taxi.jpg" alt="taxi">
+                                <p>
+                                    Entra em vigor, trazendo mudanças significativas para condutores!!
+                                </p>
+                                <a href="">Leia mais</a>
+                            </div>                            
+                        </div>
+
+                        <div class="caixa">
+                            <h4>Mundo</h4>
+                            <div class="bloco">
+                                <ul class="navbar-nav ml-auto lista-noticias">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img src="src/img/tecnologia.jpg" alt="Caderno, notebook, café" width="80">
+                                            <h6>Novas Técnologias!</h6>
+                                            <p>
+                                                Nova Tecnologia Promete Revolucionar a Indústria de Energia Renovável...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img src="src/img/cidade.jpg" alt="Cidade" width="80">
+                                            <h6>Nova Zelândia</h6>
+                                            <p>
+                                                Nova Zelândia anuncia projeto ambicioso de energia renovável até 2050...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img src="src/img/doutor.jpg" alt="Cidade" width="80">
+                                            <h6>Felipe Silva</h6>
+                                            <p>
+                                                Entrevista com o Médico Felipe Silva...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img src="src/img/mundo.jpg" alt="Cidade" width="80">
+                                            <h6>Felipe Silva</h6>
+                                            <p>
+                                                Entrevista com o Médico Felipe Silva...
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </div>
+                    </nav>
+
+                    <nav class="col-6 col-md-4 d-none d-md-block">
+                        <div class="caixa">
+                            <h4>Última Entrevsita</h4>
+                            <div class="bloco ">
+                                <h5 class="entrevistas">Entrevista com Felipe Silva</h5>
+                                <img class="imagem-principal" src="src/img/doutor.jpg" alt="Doutor" width="100%">
+                                <p>
+                                    Uma Perspectiva Atual sobre Saúde e Medicina.
+                                </p>
+                                <a href="">Leia mais</a>
+                            </div>                            
+                        </div>
+
+                        <div class="caixa">
+                            <h4>Noticias Recentes</h4>
+                            <div class="bloco">
+                                <ul class="navbar-nav ml-auto lista-noticias">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img src="src/img/tecnologia.jpg" alt="Caderno, notebook, café" width="80">
+                                            <h6>Novas Técnologias!</h6>
+                                            <p>
+                                                Nova Tecnologia Promete Revolucionar a Indústria de Energia Renovável...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img src="src/img/cidade.jpg" alt="Cidade" width="80">
+                                            <h6>Nova Zelândia</h6>
+                                            <p>
+                                                Nova Zelândia anuncia projeto ambicioso de energia renovável até 2050...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img src="src/img/doutor.jpg" alt="Cidade" width="80">
+                                            <h6>Felipe Silva</h6>
+                                            <p>
+                                                Entrevista com o Médico Felipe Silva...
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img src="src/img/mundo.jpg" alt="Cidade" width="80">
+                                            <h6>Felipe Silva</h6>
+                                            <p>
+                                                Entrevista com o Médico Felipe Silva...
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <!-- INICIO rodape -->
+                <div id="rodape">
+                    &copy; Copyright 2000-2023 Notícias cidade
+                </div><!-- /FIM rodape -->    
+            </div>
+        </footer><!-- /Fim container-rodape -->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="src/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
